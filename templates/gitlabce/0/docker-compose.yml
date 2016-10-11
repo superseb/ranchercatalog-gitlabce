@@ -20,3 +20,12 @@ gitlab-data:
   - /etc/gitlab
   - /var/log/gitlab
   - /var/opt/gitlab
+
+lb:
+  image: rancher/load-balancer-service
+  ports:
+  - 80/tcp
+  - 22/tcp
+  image: rancher/load-balancer-service
+  links:
+  - gitlab-server:gitlab-server
