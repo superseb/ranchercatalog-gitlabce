@@ -1,10 +1,7 @@
 name: GitLab Community Edition
 description: |
-GitLab CE is a free alternative to GitHub
-
-Stack based on official GitLab version: 8.12.4-ce.0
-
-https://hub.docker.com/r/gitlab/gitlab-ce/
+  GitLab CE is a free alternative to GitHub
+  Stack based on official GitLab version 8.12.4-ce.0
 version: 8.12.4-ce.0 
 category: Versioning
 maintainer: Xebia
